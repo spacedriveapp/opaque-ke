@@ -23,7 +23,7 @@ jobs:
           - --features serde
         toolchain:
           - stable
-          - 1.70.0
+          - 1.74.0
     name: test
     steps:
       - name: Checkout sources
